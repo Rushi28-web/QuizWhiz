@@ -31,4 +31,4 @@ Open the index.html file in your browser.
 📄 Certificate with your name & score
 💾 One-click download
 
-demo:-
+demo:-https://rushi28-web.github.io/QuizWhiz/
