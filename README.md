@@ -22,7 +22,7 @@ JavaScript (Vanilla) – Game logic, scoring, and certificate generation (Canvas
 
 🚀 How to Run Locally
 Clone this repository:
-git clone https://github.com/your-username/neon-quiz-game.git
+git clone https://github.com/Rushi28-web/QuizWhiz
 Open the index.html file in your browser.
 
 📜 Features
