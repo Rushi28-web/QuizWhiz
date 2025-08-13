@@ -1,0 +1,107 @@
+body {
+  font-family: 'Teko', sans-serif;
+  background: radial-gradient(circle at top, #0f0c29, #302b63, #24243e);
+  color: #e0e0e0;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#dashboard, #quiz-container, #result-screen {
+  background: rgba(255, 255, 255, 0.04);
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  box-shadow: 0 0 25px rgba(192, 34, 203, 0.3);
+}
+
+h1, h2, h3 {
+  color: #c022cb;
+  text-shadow: 0 0 10px #c022cb;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  color: #ccc;
+}
+
+
+button {
+  padding: 14px 28px;
+  margin: 10px;
+  font-size: 18px;
+  background-color: #8e2de2;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 0 20px #8e2de2;
+}
+
+button:hover {
+  background-color: #6a1b9a;
+  box-shadow: 0 0 25px #c022cb;
+}
+
+/* Timer */
+#timer {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #ffccff;
+}
+
+
+#options button {
+  display: block;
+  margin: 12px auto;
+  width: 70%;
+  background-color: #9c27b0;
+  box-shadow: 0 0 12px #9c27b0;
+}
+
+#options button:hover {
+  background-color: #7b1fa2;
+  box-shadow: 0 0 20px #c022cb;
+}
+
+
+#review {
+  text-align: left;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #6a1b9a;
+}
+
+#history {
+  list-style-type: none;
+  padding: 0;
+  color: #aaa;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  background: url('https://i.ibb.co/ZYW3VTp/glow-particles.png') repeat;
+  opacity: 0.07;
+  z-index: 1;
+  animation: floatParticles 60s linear infinite;
+}
+
+@keyframes floatParticles {
+  0% { background-position: 0 0; }
+  100% { background-position: 1000px 1000px; }
+}
